@@ -3,14 +3,18 @@
 }
 
 body {
+
   margin: 25px;
   background-color: DodgerBlue;
 }
-img {
-  height: 10px;
-  padding: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.logo > div {
+
 }
 .flex-container {
   display: flex;
@@ -19,10 +23,11 @@ img {
 }
 
 .flex-container > div {
+  text-padding: 50px;
   background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
+  width: 50%;
+  margin: 0px;
+  text-align: left;
   line-height: 75px;
   font-size: 30px;
 }
