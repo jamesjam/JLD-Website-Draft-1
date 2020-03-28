@@ -1,0 +1,17 @@
+body
+  min-height: 100vh
+  padding: 0 10%
+  background-color: #111
+  color: #FFF
+  font-size: 2em
+  display: flex
+  align-items: center
+
+.blinking-cursor
+  pointer-events: none
+  user-select: none
+  animation: blink 1s steps(2, start) infinite
+
+  @keyframes blink
+    to
+      visibility: hidden
